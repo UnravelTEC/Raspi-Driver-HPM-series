@@ -6,9 +6,9 @@ This software is licenced under GPLv3 by [UnravelTEC OG](https://unraveltec.com)
 ## Prerequsites 
 
 * `raspi-config`
- * interfacing -> serial
-  * disable login
-  * enable port
+  * interfacing -> serial
+    * disable login
+    * enable port
 
 * `systemctl disable serial-getty@ttyAMA0.service`
 
