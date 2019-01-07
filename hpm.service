@@ -1,0 +1,10 @@
+[Unit]
+Description=HPM series particulate matter sensor
+
+[Service]
+User=root
+Restart=always
+ExecStart=/usr/local/bin/hpm-series.py
+
+[Install]
+WantedBy=multi-user.target
